@@ -1,0 +1,77 @@
+body{
+    background-color: rgba(0, 0, 0, 0.87);
+}
+.nav-link,.navbar-brand{
+    font-weight: bold !important;
+    color: black !important;
+}
+.nav-link:hover{
+    background-color: royalblue;
+    color: white;
+}
+.ab:hover{
+    border-radius: 20px 5px 20px 5px;
+    background-color: royalblue;
+    color: white !important;
+}
+.pic{
+    color: white;
+    margin: 10px;
+}
+.firstimg{
+    float: left;
+    margin-right: 15px;
+    border: 1px solid white;
+    box-shadow: 2px 2px 2px white;
+    padding: 3px;
+}
+.h{
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 500px;
+}
+.gal{
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    font-weight: bold;
+}
+.inner{
+    margin-left: 70px;
+}
+.title{
+    margin-left: 20px;
+}
+.galimg{
+    float: top;
+    margin-bottom: 10px;
+    border: 1px solid white;
+    box-shadow: 2px 2px 2px white;
+    padding: 3px;
+}
+.galimg:hover{
+    opacity: 0.6;
+}
+.copyright{
+    background-color: gainsboro;
+    color: black;
+    font-weight: bold;
+    font-family: calibri;
+    height: 50px;
+    font-size: 15px;
+    padding: 10px;
+    padding-left: 55px;
+}
+.top{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+@media only screen and (max-width: 600px){
+    .h{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 40px;
+    }
+}

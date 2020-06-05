@@ -1,0 +1,117 @@
+body{
+   background-color: rgba(0, 0, 0, 0.87);
+}
+.first{
+    margin: 100px;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.a{
+    margin-top: 400px;
+    color: white;
+}
+label{
+    font-family: calibri;
+    font-size: 20px;
+}
+.ic{
+    margin-left: 10px;
+}
+.cont{
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    color: royalblue;
+}
+input{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border-radius: 2px 2px;
+    width: 350px;
+    height: 30px;
+}
+textarea{
+    width: 350px;
+    height: 150px;
+    margin-top: 8px;
+    margin-bottom: 5px;
+    border-radius: 2px 2px;
+}
+.main{
+    background-color: rgba(0, 0, 0, 0.808);
+    margin-left: 20px;
+    padding: 10px;
+    border: 2px solid black;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+.fa-map-marker
+{
+    margin-right: 12px;
+}
+.fa-envelope{
+    margin-right: 5px;
+}
+.fa-phone{
+    margin-right: 11px;
+}
+.addr{
+    font-size: 30px;
+    font-family: calibri;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+button{
+    font-weight: bold;
+    width: 80px;
+    height: 30px;
+    margin: 10px;
+    margin-left: 277px;
+    border-radius: 2px 2px 2px 2px;
+}
+button:hover{
+    background-color: royalblue;
+}
+.nav-link,.navbar-brand{
+    font-weight: bold !important;
+    color: black !important;
+}
+.nav-link:hover{
+    background-color: royalblue;
+    color: white;
+}
+.ab:hover{
+    border-radius: 20px 5px 20px 5px;
+    background-color: royalblue;
+    color: white !important;
+}
+.copyright{
+    background-color: gainsboro;
+    color: black;
+    font-weight: bold;
+    font-family: calibri;
+    height: 50px;
+    font-size: 15px;
+    padding: 10px;
+    padding-left: 55px;
+}
+.top{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+@media only screen and (max-width: 600px){
+    .a{
+        margin-top: 10px;
+        color: white;
+    }
+    .first{
+        margin: 10px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
